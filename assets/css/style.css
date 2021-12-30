@@ -208,6 +208,11 @@ p {
     display: block;
 }
 
+.services-content .services-item:nth-child(odd) .services-col:nth-child(odd) {
+    order: 1;
+}
+
+
 /* 
     Nav Bar
 */
@@ -838,7 +843,7 @@ p {
 }
 
 .services-nav {
-    box-shadow: 0 0px 8px #d2cfcf;
+    box-shadow: 0 0px 4px #d2cfcf;
     background: var(--white-color);
     text-align: center;
     margin: 10px 5px;
@@ -847,6 +852,7 @@ p {
     align-items: center;
     justify-content: center;
     display: grid;
+    cursor: pointer;
 }
 
 .services-nav.current {
@@ -892,9 +898,9 @@ p {
 .services-slider-for-item {}
 
 .services-for-text {
-    box-shadow: 0 0px 8px #d2cfcf;
+    box-shadow: 0 0px 4px #d2cfcf;
     background: var(--white-color);
-    padding: 30px 10px;
+    padding: 30px 30px;
     margin: 0 5px 5px;
 }
 
@@ -917,20 +923,22 @@ p {
 }
 
 .services-slid-text h2 {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-weight: 800;
 }
 
 .services-slid-text p {}
 
-.services-slid-text ul {
-    column-count: 2;
+.services-slid-text ul { 
     padding-top: 15px;
 }
 
 .services-slid-text ul li {
-    padding-top: 7px;
+    padding-top: 15px;
     font-size: 17px;
-    color: var(--primary-color);
+    font-weight: 500;
+    display: flex;
 }
 
 .services-slid-text ul li::before {
@@ -938,6 +946,7 @@ p {
     font-family: "Font Awesome 5 free";
     font-weight: 900;
     margin-right: 10px;
+    color: var(--primary-color);
 }
 
 /* 
