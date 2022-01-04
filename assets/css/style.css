@@ -3389,5 +3389,28 @@ p {
     font-weight: 700;
     text-transform: uppercase;
 }
+.ttp-setion{
+    background: linear-gradient(225deg,#427fdf 0%,#396bb1 100%) !important;
+}
 
+.ttp-setion{
+    color: #fff;
+}
+.ttp-setion .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.ttp-setion .h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+.ttp-setion p {
+    color: #fff;
+    padding-top: 30px;
+}
+.ttp-setion{}
 
+.ttp-img{}
+.ttp-img img {
+    width: 100%;
+}
