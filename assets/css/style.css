@@ -3425,3 +3425,40 @@ p {
 .ttp-img img {
     width: 100%;
 }
+
+.ppc-faq .accordion-button{
+    box-shadow: none !important;
+    color: rgba(0,12,54,0.3)!important;
+    font-size: 25px;
+    font-family: proxima_nova_bold;
+}
+.ppc-faq .accordion-button:not(.collapsed){
+    color: rgb(0, 12, 54)!important;
+    background-color: #e7f1ff; 
+} 
+.ppc-faq .accordion-item {
+    background-color: #fff;
+    border: 0;
+    border-bottom: 2px solid #000;
+    border-radius: 0 !important;
+}
+.accordion-button::after {
+    content: "\f067";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    background: none !important;
+    transform: none !important;
+    background-color: var(--primary-color) !important;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.accordion-button:not(.collapsed)::after {
+    content: "\f068";
+    background-color: #3D73C4 !important;
+}
+.ppc-faq{}
