@@ -183,6 +183,10 @@ p {
     font-weight: 800;
 }
 
+.section-title span{
+    color: var(--primary-color);
+}
+
 .cols-4 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(31%, 1fr));
