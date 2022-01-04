@@ -577,6 +577,55 @@ p {
     padding: 10px 0px 20px;
 }
 
+/* banner2  */
+.banner2-area{
+    background: linear-gradient(
+        225deg
+        ,#427fdf 0%,#396bb1 100%) !important;
+    position: relative;
+    padding-top: 270px;
+    padding-bottom: 110px;
+    z-index: 1;
+}
+.banner2-img img {
+    width: 100%;
+}
+
+.banner2-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: right;
+    text-align: right;
+    z-index: -1;
+    width: 42%;
+}
+.banner2-heading{}
+.banner2-heading h1{
+    color: var(--white-color);
+}
+.banner2-heading .h5 {
+    color: var(--white-color);
+    padding: 15px 0 24px;
+}
+.banner-form-top{
+    display: flex;
+}
+.banner-form-top select {
+    border: 0;
+    border-radius: 0;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #6a6a6a;
+    padding: 0 20px;
+}
+.banner-form-top .theme-btn {
+    background-color: var(--primary-color);
+    width: 257px;
+    padding: 15px 15px;
+    height: 70px;
+}
 
 /* 
     Page Banner
