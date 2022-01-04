@@ -3198,7 +3198,7 @@ p {
 }
 
 
-.modal-dialog.modal-dialog-centered {
+.start-here-area .modal-dialog.modal-dialog-centered {
     max-width: 100% !important;
     min-height: 100% !important;
     margin: 0;
@@ -3462,3 +3462,85 @@ p {
     background-color: #3D73C4 !important;
 }
 .ppc-faq{}
+
+
+.client2-area{}
+.client-slider{}
+
+.client-item{ 
+    border-radius: 4px; 
+    padding: 40px 30px;
+
+}
+.client-item .shep-img {}
+.client-item .shep-img img  {}
+.client-item .h4 {
+    font-family: proxima_nova_bold;
+}
+.client-item p{}
+.shep-text {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.shep-text {
+    padding-bottom: 15px;
+}
+.rescript {
+    min-height: 200px;
+}
+.client-na{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.client-na img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.client-na .text {}
+.client-na .text .h5  {
+    font-family: proxima_nova_bold;
+}
+.client-na .text .p  {
+    
+}
+
+.client-item-modal{
+    padding: 20px;
+}
+
+.slider-gap {
+    opacity: .5;
+}
+.slider-gap.slick-center {
+    opacity: 1;
+} 
+.slider-gap.slick-center .client-item{
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 15%);
+    background-color: rgb(238, 238, 238);
+} 
+
+.client-modal-area .btn-close {
+    right: 0;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+}
+
+.client2-area .slick-slider {
+    margin:0 -15px;
+}
+.client2-area .slick-slide { 
+    margin-right:15px;
+    margin-left:15px;
+}
+.slick-dots li button:before { 
+    font-size: 28px; 
+    top: 26px; 
+}
