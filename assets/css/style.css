@@ -1,7 +1,7 @@
 :root {
     --white-color: #fff;
     --black-color: #242424;
-    --primary-color: #edb602;
+    --primary-color: #FF360C;
     --primary2-color: #ed0207;
     --primary3-color: #00EBFD;
     --secondary-color: #777373;
@@ -250,8 +250,7 @@ p {
 }
 
 #topNab .btn-md {
-    background-color:#edb602;
-    color: var(--black-color);
+    background-color:var(--primary-color); 
     padding: 11px;
     box-shadow: 0 12px 18px 0 rgb(0 0 0 / 15%);
     border-radius: 3px;
@@ -491,7 +490,7 @@ p {
 } */
 .hero-text h1 span,
 .hero-text h1 .ttc {
-    color: #edb602;
+    color: var(--primary-color);
 }
 .hero-text .seoff-title{
 
@@ -502,7 +501,7 @@ p {
 }
 .hero-text .gua {
     font-size: 40px; 
-    color: #edb602;
+    color: var(--primary-color);
 }
 
 .hero-text p {
@@ -513,7 +512,7 @@ p {
 }
 
 .hero-text a {
-    background-color: #edb602;;
+    background-color: var(--primary-color);;
     color: var(--black-color);
     margin-top: 40px;
     padding: 15px 15px;
@@ -3194,7 +3193,7 @@ p {
     outline: 0;
     height: 100vh;
     justify-content: center;
-    background-color: #edb602;
+    background-color: var(--primary-color);
 }
 .form-check-input:checked {
     background-color: #000000 !important;
@@ -3295,7 +3294,7 @@ p {
     font-size: 266%;
     font-weight: 900;
     line-height: 100%;
-    color: #edb602!important;
+    color: var(--primary-color)!important;
 }
 
 .want-text p {
@@ -3306,14 +3305,14 @@ p {
 }
 .want-text strong {
     font-weight: 600;
-    color: #edb602;
+    color: var(--primary-color);
 }
 .want-text{
     text-align: center;
 }
 .want-text .theme-btn{
-    background-color: #edb602;;
-    color: #000;
+    background-color: var(--primary-color);;
+    
     padding: 15px;
 }
 
@@ -3326,7 +3325,7 @@ p {
     gap: 20px;
 }
 .started-today-item .number {
-    color: #edb602;
+    color: var(--primary-color);
     font-size: 50px;
     margin-top: -8px;
     position: relative; 
@@ -3334,7 +3333,7 @@ p {
 }
 .started-today-item .number::after {
     content: '';
-    background: #edb602;
+    background: var(--primary-color);
     width: 2px;
     height: 43px;
     position: absolute;
@@ -3343,7 +3342,7 @@ p {
 }
 .started-today-item .text {}
 .started-today-item .text .title {
-    color: #edb602;
+    color: var(--primary-color);
     font-size: 18px;
     font-weight: 600;
 }
@@ -3351,8 +3350,7 @@ p {
 
 
 .started-btn .theme-btn{
-    background: #edb602;
-    color: #000;
+    background: var(--primary-color); 
 }
 
 .ttp-seo-agency-area{
