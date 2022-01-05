@@ -46,9 +46,11 @@
         autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
+        prevArrow: '<button class="slide-arrow prev-arrow fas fa-chevron-left"></button>',
+        nextArrow: '<button class="slide-arrow next-arrow fas fa-chevron-right"></button>',
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 1024,
             settings: {
               arrows: false,
               centerMode: true,
@@ -57,7 +59,7 @@
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 768,
             settings: {
               arrows: false,
               centerMode: true,

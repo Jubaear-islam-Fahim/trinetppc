@@ -3547,7 +3547,7 @@ p {
 }
 
 .client2-area .slick-slider {
-    margin:0 -15px;
+    margin:0 30px;
 }
 .client2-area .slick-slide { 
     margin-right:15px;
@@ -3555,4 +3555,21 @@ p {
 }
 .slick-dots li button:before { 
     font-size: 28px;  
+}
+
+.client-slider .slide-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: #ccc;
+    font-size: 30px;
+}
+.client-slider .slide-arrow.next-arrow{
+    right: -2%;
+}
+.client-slider .slide-arrow.next-prev{
+    left: -2%;
 }
