@@ -175,6 +175,10 @@ p {
     display: inline-block;
 }
 
+.theme-btn.btn-fs{
+    font-size: 18px;
+}
+
 .section-bgOne {
     background-color: var(--bg-one);
 }
