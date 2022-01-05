@@ -448,8 +448,7 @@ p {
         opacity: 1;
         visibility: visible;
         top: 100%;
-        transform: rotateX(0deg);
-        max-width: 75%;
+        transform: rotateX(0deg); 
     }
 }
 
