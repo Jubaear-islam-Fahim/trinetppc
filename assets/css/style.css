@@ -3568,8 +3568,8 @@ p {
     font-size: 30px;
 }
 .client-slider .slide-arrow.next-arrow{
-    right: -2%;
+    right: -1%;
 }
-.client-slider .slide-arrow.next-prev{
-    left: -2%;
+.client-slider .slide-arrow.prev-arrow{
+    left: -1%;
 }
