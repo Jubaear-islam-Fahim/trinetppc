@@ -3295,6 +3295,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 50px;
+    font-family: proxima_nova_bold;
 }
 .want-call-action-content .want-text{}
 .want-call-action-content .want-text .title {
@@ -3303,6 +3304,7 @@ p {
     line-height: 80%;
     text-shadow: 0 0 10px rgb(0 0 0 / 30%);
     color: #fff!important;
+
 }
 .want-call-action-content .want-text .sub-title{
    
