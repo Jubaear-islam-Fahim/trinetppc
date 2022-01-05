@@ -1540,7 +1540,7 @@ p {
 */
 
 .footer-widget-area {
-    background-color: var(--primary-color);
+    background-color: var(--black-color);
 }
 
 .footer-col {}
