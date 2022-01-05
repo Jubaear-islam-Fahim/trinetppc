@@ -3208,7 +3208,7 @@ p {
     outline: 0;
     height: 100vh;
     justify-content: center;
-    background-color: var(--primary-color);
+    background: linear-gradient( 225deg,#427fdf 0%,#396bb1 100%) !important;
 }
 .form-check-input:checked {
     background-color: #000000 !important;
@@ -3276,7 +3276,8 @@ p {
 
 
 .want-call-action-area{
-    background-image: url(../img/rocket-bg.png);
+    background: linear-gradient(
+        225deg,#427fdf 0%,#396bb1 100%) !important;
     background-repeat: repeat-y;
     background-position: 0 0;
     background-size: 100% auto;
@@ -3464,7 +3465,9 @@ p {
 .ppc-faq{}
 
 
-.client2-area{}
+.client2-area{
+    overflow: hidden;
+}
 .client-slider{}
 
 .client-item{ 
@@ -3520,8 +3523,8 @@ p {
     opacity: 1;
 } 
 .slider-gap.slick-center .client-item{
-    box-shadow: 0 0 3px 0 rgb(0 0 0 / 15%);
-    background-color: rgb(238, 238, 238);
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 15%);
+    background-color: rgb(255, 255, 255);
 } 
 
 .client-modal-area .btn-close {
@@ -3541,6 +3544,5 @@ p {
     margin-left:15px;
 }
 .slick-dots li button:before { 
-    font-size: 28px; 
-    top: 26px; 
+    font-size: 28px;  
 }
