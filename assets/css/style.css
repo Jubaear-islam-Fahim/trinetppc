@@ -135,8 +135,8 @@ p {
 
 .theme-btn {
     display: inline-block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-weight: 600; 
+    font-family: proxima_nova_bold;
     text-transform: uppercase;
     color: #FFF;
     background: #000;
@@ -144,10 +144,10 @@ p {
     /* line-height: 46px; */
     position: relative;
     -webkit-box-shadow: none;
-    box-shadow: none;
+    box-shadow: 0 12px 18px 0 rgb(0 0 0 / 15%);
     outline: none;
     z-index: 2;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: .28px;
     text-align: center;
     -webkit-transition: all 400ms linear 0s;
@@ -156,6 +156,8 @@ p {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     border: 0;
+    border-radius: 3px;
+    
 }
 
 .theme-btn:hover {
@@ -169,7 +171,7 @@ p {
 }
 
 .btn-lg {
-    padding: 15px 30px;
+    padding: 18px 30px;
     display: inline-block;
 }
 
@@ -273,6 +275,12 @@ p {
 #topNab.nabActive .btn-md {
     background-color: var(--black-color);
     color: var(--white-color);
+}
+
+#topNab.nabActive .btn-md:hover{
+    background: linear-gradient(
+        225deg
+        ,#427fdf 0%,#396bb1 100%) !important;
 }
 
 .col-megamenu {
@@ -579,27 +587,21 @@ p {
     border-radius: 0;
     height: 60px;
     position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) 95% / 4% no-repeat #fff;
 }
-.banner-form-top select::after{
-    content: "\f078";
-    font-family: "Font Awesome 5 free";
-    font-weight: 900;
-    display: block; 
-    font-size: 1.2em;
-    color: rgb(120, 120, 120);
-    position: absolute;
-    right: 24px;
-    top: 24px;
-    z-index: 3;
-    pointer-events: none;
-}
-
+ 
 .banner-form-top .theme-btn {
     background-color: var(--primary-color);
     width: 280px;
     padding: 15px 4px;
     height: 70px;
     font-weight: 800;
+}
+.banner-form-top .theme-btn:hover{
+    background: linear-gradient( 225deg ,#427fdf 0%,#396bb1 100%) !important;
 }
 .hero-text .h6{
     font-size: 20px;
@@ -3328,8 +3330,7 @@ p {
 }
 .want-text .theme-btn{
     background-color: var(--primary-color);;
-    
-    padding: 15px;
+     
 }
 
 .want-call-action-content {}
@@ -3367,6 +3368,10 @@ p {
 
 .started-btn .theme-btn{
     background: var(--primary-color); 
+}
+.started-btn .theme-btn:hover {
+    background: linear-gradient(
+        225deg,#427fdf 0%,#396bb1 100%) !important;
 }
 
 .ttp-seo-agency-area{
