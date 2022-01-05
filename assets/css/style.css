@@ -1538,8 +1538,9 @@ p {
     Footer
 */
 
-.footer-widget-area {
-    background-color: var(--black-color);
+.footer-widget-area { 
+
+    background: linear-gradient( 225deg,#427fdf 0%,#396bb1 100%) !important;
 }
 
 .footer-col {}
